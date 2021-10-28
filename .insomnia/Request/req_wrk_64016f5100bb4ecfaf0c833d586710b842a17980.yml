@@ -1,0 +1,24 @@
+_id: req_wrk_64016f5100bb4ecfaf0c833d586710b842a17980
+type: Request
+parentId: fld_wrk_64016f5100bb4ecfaf0c833d586710b81b034c38
+modified: 1635416740623
+created: 1635416740623
+url: "{{ base_url }}/pet/findByTags"
+name: Finds Pets by tags
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: tags
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1635416740623
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
